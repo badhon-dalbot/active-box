@@ -1,0 +1,124 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .main-menu {
+        width: 95%;
+    }
+    .hero-content {
+        margin-top: 40px;
+    }
+    .hero-content h2 {
+        font-size: 30px;
+        padding: 0px 52px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 50px;
+        margin-top: 40px;
+    }
+    .our-btn {
+        margin: 50px 0 110px 0;
+    }
+    .feature-content {
+        margin-top: 100px;
+    }
+    .card-content {
+        text-align: center;
+    }
+    .slick-dots {
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%);
+    }
+    .client-message p {
+        font-size: 20px;
+        text-align: justify;
+        padding-right: 20px;
+    }
+    .download {
+        margin: 70px 0;
+    }
+    .download p {
+        font-size: 24px;
+    }
+    .footer-top-box {
+        margin: 20px 0;
+    }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .main-menu {
+        width: 85%;
+    }
+    .hero-content {
+        margin-top: 40px;
+    }
+    .hero-content h2 {
+        font-size: 30px;
+        padding: 0px 52px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 50px;
+        margin-top: 40px;
+    }
+    .our-btn {
+        margin: 50px 0 110px 0;
+    }
+    .feature-content {
+        margin-top: 100px;
+    }
+    .card-content {
+        text-align: center;
+    }
+    .slick-dots {
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%);
+    }
+    .client-message p {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .download {
+        margin: 70px 0;
+    }
+    .download p {
+        font-size: 24px;
+    }
+    .footer-top-box {
+        margin: 20px 0;
+    }
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .hero-content {
+        margin-top: 118px;
+    }
+    .hero-content h2 {
+        font-size: 50px;
+        padding: 0px 25px;
+    }
+    .our-btn {
+        margin: 58px 0 110px 0;
+    }
+    .work-item img {
+        min-height: 371px;
+    }
+     .client-message {
+            margin: -2px 70px;
+    }
+    .client-message p {
+        font-size: 30px;
+    }
+    .slick-dots {
+        bottom: 0;
+    }
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+ /* Extra large devices (large desktops) */
+ /* No media query since the extra-large breakpoint has no upper bound on its width */
